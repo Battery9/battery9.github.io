@@ -2,6 +2,8 @@ import React from 'react'
 import Timeline from './Timeline'
 import { FiPieChart } from 'react-icons/fi'
 import Skills from './Skills'
+import Certifications from './Certifications'
+import LazyRender from '../../shared/LazyRender'
 
 function Resume() {
   return (
@@ -10,8 +12,11 @@ function Resume() {
         <FiPieChart />
         <h2>My Résumé</h2>
       </div>
+      <LazyRender>
       <Timeline />
       <Skills />
+      <Certifications />
+      </LazyRender>
     </div>
   )
 }
