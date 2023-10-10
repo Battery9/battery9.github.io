@@ -3,7 +3,7 @@ import bg from "../assets/bg.mp4";
 import SideBar from "./SideBar";
 import AboutMe from "./aboutMe/AboutMe";
 import Resume from "./resume/Resume";
-import Projects from "./Porjects";
+import Projects from "./portfolio/Portfolio";
 import { FiUser, FiBook, FiBriefcase, FiPackage } from "react-icons/fi";
 import SimpleBar from "simplebar-react";
 import "simplebar-react/dist/simplebar.min.css";
