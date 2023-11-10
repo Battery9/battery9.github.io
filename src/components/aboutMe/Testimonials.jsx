@@ -2,32 +2,34 @@ import React from "react";
 import { Splide, SplideSlide } from "@splidejs/react-splide";
 import { motion } from "framer-motion";
 import "@splidejs/react-splide/css/sea-green";
+import LazyLoad from "react-lazy-load";
 
 const testimonials = [
   {
-    name: "John Doe",
-    text: "Working with this developer has been a fantastic experience. Their skills, professionalism, and dedication are truly impressive.",
+    name: "Tim Berners-Lee",
+    text: "The web does not just connect machines; it connects people.",
   },
   {
-    name: "Jane Smith",
-    text: "I was amazed by the quality of the work delivered by this developer. They consistently exceeded my expectations and delivered on time.",
+    name: "Maria Klawe",
+    text: "Coding is today's language of creativity. All our children deserve a chance to become creators instead of consumers of computer programs.",
   },
   {
-    name: "Alex Johnson",
-    text: "This developer's attention to detail and creative problem-solving abilities have greatly contributed to the success of our projects.",
-  },
+    name: "Cassie Noble",
+    text: "Web development is an art. Don't let anyone tell you differently.",
+  }
 ];
 
 function Testimonials() {
   return (
     <>
-    <h2 className="mx-8 text-2xl font-semibold mb-2">Testimonials</h2>
+    <h2 className="m-2 text-xl font-semibold">Testimonials</h2>
     <motion.div
       initial={{ opacity: 0, scale: 0.5 }}
       animate={{ opacity: 1, scale: 1 }}
       transition={{ duration: 1 }}
       className="mx-8"
     >
+      <LazyLoad>
       <Splide
         options={{
           type: "loop",
@@ -52,6 +54,7 @@ function Testimonials() {
           </SplideSlide>
         ))}
       </Splide>
+      </LazyLoad>
     </motion.div>
     </>
   );

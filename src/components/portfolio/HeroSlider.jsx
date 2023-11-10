@@ -2,8 +2,9 @@ import React from 'react';
 import { Splide, SplideSlide } from '@splidejs/react-splide';
 import img1 from '../../assets/demo cert.jpeg'
 import img2 from '../../assets/demo cert2.png'
-import { motion } from 'framer-motion';
+import { delay, motion } from 'framer-motion';
 import LazyRender from "../../shared/LazyRender"
+import LazyLoad from 'react-lazy-load';
 
 const HeroSlider = () => {
   const sliderItems = [{

@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import demo from "../../assets/demo cert.jpeg"
 import demo2 from "../../assets/demo cert2.png"
-import LazyRender from '../../shared/LazyRender'
+import LazyLoad from 'react-lazy-load'
 import { motion } from 'framer-motion'
 
 function Certifications() {
@@ -56,7 +56,7 @@ function Certifications() {
       <div className='grid lg:grid-cols-3 mx-4 gap-4'>
         {certs.map((c, index) => {
           return (
-            <LazyRender key={index}>
+            <LazyLoad>
               <motion.div
                 className='p-2 rounded-lg shadow-lg flex flex-col bg-gradient-to-r from-teal-400/60 to-blue-500/50 hover:from-blue-500/50 hover:to-teal-400/60 hover:shadow-none hover:scale-105 shadow-black text-center transition-all duration-300'
                 key={c.course}
@@ -84,7 +84,7 @@ function Certifications() {
                   <a href={c.link} className='bg-[#374151] text-[#31ffea] px-4 py-2 rounded-lg hover:bg-[#428bffa6] transition duration-300'>Link</a>
                 </div>
               </motion.div>
-            </LazyRender>
+            </LazyLoad>
           )
         })}
       </div>
