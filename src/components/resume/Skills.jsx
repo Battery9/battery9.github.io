@@ -16,9 +16,12 @@ function Skills() {
             <h3 className="absolute top-[-1rem] font-semibold">Web Development</h3>
           <div className="flex flex-wrap gap-2 text-sm">
             <p className="bg-[#65c3ba] py-1 px-2 rounded-lg">HTML & CSS</p>
+            <p className="bg-[#65c3ba] py-1 px-2 rounded-lg">Node & Express</p>
+            <p className="bg-[#65c3ba] py-1 px-2 rounded-lg">MySQL, MongoDB</p>
             <p className="bg-[#65c3ba] py-1 px-2 rounded-lg">React</p>
-            <p className="bg-[#65c3ba] py-1 px-2 rounded-lg">HTML & CSS</p>
-            <p className="bg-[#65c3ba] py-1 px-2 rounded-lg">HTML & CSS</p>
+            <p className="bg-[#65c3ba] py-1 px-2 rounded-lg">Laravel</p>
+            <p className="bg-[#65c3ba] py-1 px-2 rounded-lg">Wordpress</p>
+            <p className="bg-[#65c3ba] py-1 px-2 rounded-lg">Bootstrap, TailwindCSS</p>
           </div>
         </motion.div>
         </LazyRender>
@@ -28,12 +31,13 @@ function Skills() {
         animate={{scale: 1}}
         transition={{duration: 0.7, delay: 0.3}}
         className="my-4 p-3 rounded-lg shadow shadow-[#65c3ba] bg-gray-700 relative">
-        <h3 className="absolute top-[-1rem] font-semibold">Web Development</h3>
+        <h3 className="absolute top-[-1rem] font-semibold">Technical Skills</h3>
           <div className="flex flex-wrap gap-2 text-sm">
-            <p className="bg-[#65c3ba] py-1 px-2 rounded-lg">HTML & CSS</p>
-            <p className="bg-[#65c3ba] py-1 px-2 rounded-lg">React</p>
-            <p className="bg-[#65c3ba] py-1 px-2 rounded-lg">HTML & CSS</p>
-            <p className="bg-[#65c3ba] py-1 px-2 rounded-lg">HTML & CSS</p>
+            <p className="bg-[#65c3ba] py-1 px-2 rounded-lg">Computer Hardwares</p>
+            <p className="bg-[#65c3ba] py-1 px-2 rounded-lg">MS Office</p>
+            <p className="bg-[#65c3ba] py-1 px-2 rounded-lg">Basic Networking</p>
+            <p className="bg-[#65c3ba] py-1 px-2 rounded-lg">Linux & CLI</p>
+            <p className="bg-[#65c3ba] py-1 px-2 rounded-lg">Cloud Computing</p>
             </div>
         </motion.div>
         </LazyRender>

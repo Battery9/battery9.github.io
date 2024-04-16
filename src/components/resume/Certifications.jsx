@@ -22,25 +22,7 @@ function Certifications() {
     course: 'Best Certification for the Best Man',
     issued_by: 'The God',
     link: ""
-  },
-  {
-    img: demo,
-    course: 'Best Certification for the Best Man',
-    issued_by: 'The God',
-    link: ""
-  },
-  {
-    img: demo,
-    course: 'Best Certification for the Best Man',
-    issued_by: 'The God',
-    link: ""
-  },
-  {
-    img: demo,
-    course: 'Best Certification for the Best Man',
-    issued_by: 'The God',
-    link: ""
-  }]
+  },]
 
   const [modalVisible, setModalVisible] = useState(false)
   const [modalImage, setModalImage] = useState(null)

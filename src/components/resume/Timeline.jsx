@@ -5,9 +5,16 @@ import LazyRender from "../../shared/LazyRender";
 function Timeline() {
   const exp = [
     {
+      profile: "Web Developer Intern",
+      company: "Inventors Arena",
+      duration: "Nov 2023 - Fev 2024",
+      description:
+        "As an intern, I gained hands-on experience with Laravel and WordPress, contributing to the development of a full-scale project alongside various smaller projects. Engaging in real-world scenarios, I honed my skills and learned the intricacies of web development within a professional setting, making meaningful contributions to the team's objectives.",
+    },
+    {
       profile: "Managing Director",
       company: "Unknown Rivals Esports",
-      duration: "Aug 2020 - Present",
+      duration: "Aug 2020 - Dec 2023",
       description:
         "I hold a critical leadership role in overseeing the strategic direction and operations of the organization. My expertise in the esports industry, combined with effective decision-making and team management skills, ensures the growth and success of Unknown Rivals Esports.",
     },

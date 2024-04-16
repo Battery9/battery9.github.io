@@ -7,6 +7,7 @@ import {
   FiHelpCircle,
   FiArrowRightCircle,
 } from "react-icons/fi";
+import moment from "moment";
 
 function AboutMe() {
   return (
@@ -51,21 +52,21 @@ function AboutMe() {
             <FiArrowRightCircle />
             AGE:
           </span>
-          <span className="ml-3 italic">23</span>
+          <span className="ml-3 italic">{moment().diff(moment('20001208', 'YYYYMMDD'), 'years')}</span>
         </p>
         <p>
           <span className="bg-[#65c3ba] px-3 p-px rounded-sm font-semibold inline-flex items-center gap-1">
             <FiArrowRightCircle />
             STATUS:
           </span>
-          <span className="ml-3 italic">Open to Work</span>
+          <span className="ml-3 italic">Working at AMP Tech</span>
         </p>
         <p>
           <span className="bg-[#65c3ba] px-3 p-px rounded-sm font-semibold inline-flex items-center gap-1">
             <FiArrowRightCircle />
             ROLE:
           </span>
-          <span className="ml-3 italic">-</span>
+          <span className="ml-3 italic">Backend Developer</span>
         </p>
       </div>
       <MyServices />
