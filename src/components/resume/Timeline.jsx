@@ -43,6 +43,24 @@ function Timeline() {
 
   const edu = [
     {
+      course: "Junior Full Stack Java Developer",
+      org: "EduJobs | Generation India.",
+      des: "After completing the NASSCOM-certified 16-week full-time program, I've not only mastered the technical essentials of web development but also polished my soft skills. Now, armed with this comprehensive preparation, I'm fully prepared to pursue entry-level roles and thrive in the dynamic world of tech!",
+      duration: "2023"
+    },
+    {
+      course: "Full Stack Web Development", 
+      org: "Physics Wallah.",
+      des: "This course included various treanding technologies on software development industry. This course equipped me with the necessary skills to build and maintain web applications.",
+      duration: "2023"
+    },
+    {
+      course: "Feild Technician & Computer Peripheral",
+      org: "PBSSD",
+      des: "A 4-month course on field tech, which included basic computer hardware, software, and peripheral skills. This course equipped me with the skills to troubleshoot and repair hardware and software issues on a professional level.",
+      duration: "2020 - 2021"
+    },
+    {
       course: "Advanced Diploma in Computer Application",
       org: "Compaq Computer Center.",
       des: "An ADCA, which included comprehensive training in basic computer skills and proficiency in Microsoft Office applications. This qualification equips me with essential computer literacy for a wide range of professional tasks.",
@@ -82,7 +100,7 @@ function Timeline() {
         </div>
       </section>
       <section>
-        <h1 className="m-2 text-xl font-semibold">Education</h1>
+        <h1 className="m-2 text-xl font-semibold">Academics & Courses</h1>
         <div className="mx-4 border-l-2 border-zinc-500 pl-5">
           {edu.map((e, i) => {
             return (
